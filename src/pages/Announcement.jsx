@@ -57,10 +57,10 @@ const Announcement = () => {
             try {
                 // Send the email for the current client
                 const result = await emailjs.sendForm(
-                    "service_kol4zwf",
-                    "template_ywf3xzv",
+                    "service_a4n0u6e", //
+                    "template_xag31xl",
                     form.current,
-                    "IN_4AFssN4LoNXUXS"
+                    "gqPl6Tqkq5adomnIU"
                 );
 
                 console.log(result.text);
